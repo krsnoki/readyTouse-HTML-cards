@@ -7,19 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
     <link href="CSS/style1.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="CSS/myheads.css">
     
     <title>KALYANI | Portfolio</title>
 </head>
 <body>
-    <div class="header sticky-top">
-        <nav class="navbar navbar-expand-md navbar-light">
-        <div>
-        <b> Kalyani Kolte</b>
+    <div id="root">
+        <header>
+            <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                    <a class="navbar-brand fs-3 fw-bold" href="#">K.Kalyani</a>
+                    <div id="nav-icon1" class=" navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item pe-4 fw-bold">
+                                <a class="nav-link" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item pe-4 fw-bold">
+                                <a class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item pe-4 fw-bold">
+                                <a class="nav-link">Resume</a>
+                            </li>
+                            <li class="nav-item pe-4 fw-bold"><a class="nav-link">Service</a></li>
+                            <li class="nav-item pe-4 fw-bold"><a class="nav-link">Project</a></li>
+                            <li class="nav-item pe-4 fw-bold"><a class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>                   
+              </div>
+            </nav>
+          </header>
+<!-- ammendment for header, text in white, background color not visible Find some solution!!-->
+
+          <!-- my interests cards -->
+        <div class="my-heading">
+            <h1>My Hobbies</h1>
         </div>
-    </nav>
-    </div>
-    <div>
-        
+        <div class="row">
+            <div class="col">
+                <div class="card no-1 md-3"  style="width: 20rem;">
+                    <img class = "card-img-top" src="assets/Screenshot (80).png" alt="Space UI">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Exploration</b></h5>
+                        <p class="card-text">My Hobby is to extract my favourite bhajans</p>
+                        <a href="#" class="card-link">Listen Them Here!</a>
+                        <a href="#" class="card-link">keshav_priti</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card no-2 md-5"  style="width: 30rem;">
+                    <img class = "card-img-top img-no-2" src="assets/landscape.png" alt="Space UI">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Nature Lover</b></h5>
+                        <p class="card-text">I writes articles on trending nature topics and post it on my own website : natureblog.com</p>
+                        <p class="card-text">You are welcome to read all of them here below -</p>
+                        <a href="#" class="card-link">NATURE BLOGS</a>
+                        <a href="#" class="card-link">kanture</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card no-3 md-3"  style="width: 20rem;">
+                    <img class = "card-img-top img-no-3" src="assets/illu-machine-learning-httpcs.svg" alt="Space UI">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Machine Learning</b></h5>
+                        <p class="card-text">I have learnt machine learning at electrosoft company <b>iBase Technologies</b></p>
+                        <p class="card-text">My Projects on Github - </p>
+                        <a href="#" class="card-link">My projects</a>
+                        <a href="#" class="card-link">Kalyani Kolte</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
+
